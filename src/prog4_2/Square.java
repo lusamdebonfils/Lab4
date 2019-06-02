@@ -5,7 +5,6 @@ public final class Square extends ClosedCurve {
 	
 	public Square(double side){
 		this.side = side;
-		
 	}
 	public double computeArea() {
 		return side * side;
